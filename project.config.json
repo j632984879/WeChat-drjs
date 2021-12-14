@@ -1,0 +1,20 @@
+{
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": []
+  },
+  "miniprogramRoot": "miniprogram/",
+  "compileType": "miniprogram",
+  "libVersion": "2.20.1",
+  "projectname": "miniprogram-1",
+  "setting": {
+    "useCompilerPlugins": [
+      "typescript",
+      "less"
+    ]
+  },
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "appid": "touristappid",
+  "condition": {}
+}

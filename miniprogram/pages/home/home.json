@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "成都达人家事无忧",
+  "usingComponents": {
+    "home-banner": "../../components/home-banner/home-banner",
+    "home-search": "../../components/home-search/home-search",
+    "home-info": "../../components/home-info/home-info",
+    "home-hot": "../../components/home-hot/home-hot",
+    "home-icons": "../../components/home-icons/home-icons"
+  }
+}

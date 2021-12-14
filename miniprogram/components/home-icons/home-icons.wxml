@@ -1,0 +1,13 @@
+<!--components/home-icons/home-icons.wxml-->
+<view class="grid-5">
+    <block wx:for="{{icons}}" wx:key="*this">
+        <view wx:key="{{item.icon}}" class="grid-item grid-item-container">
+            <view class="image-fit-view" bindtap="iconClick" mark:to="{{item.navgation}}">
+                <image class="fit-image" src="{{item.icon}}"></image>
+            </view>
+            <view>
+                <text>{{item.text}}</text>
+            </view>
+        </view>
+    </block>
+</view>

@@ -1,0 +1,25 @@
+<!--index.wxml-->
+<!-- <import src="../../components/home-banner/home-banner"/> -->
+<view class="container">
+  <view class="service-bar">
+    <view>
+      <text>成都达人家事无忧</text>
+    </view>
+    <view>
+      <service-search></service-search>
+    </view>
+  </view>
+  <view class="service-main">
+    <view class="service-main">
+      <view>
+        <view class="service-container">
+          <service-banner banners="{{banners}}"></service-banner>
+        </view>
+        <view class="service-container">
+          <service-tab></service-tab>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>

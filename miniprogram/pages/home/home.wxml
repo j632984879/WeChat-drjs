@@ -1,0 +1,31 @@
+<!--index.wxml-->
+<!-- <import src="../../components/home-banner/home-banner"/> -->
+<view class="container">
+  <view class="home-bar">
+    <view>
+      <text>成都达人家事无忧</text>
+    </view>
+    <view>
+      <home-search></home-search>
+    </view>
+  </view>
+  <view class="home-main">
+    <view class="home-main">
+      <view>
+        <view class="home-container">
+          <home-banner banners="{{banners}}"></home-banner>
+        </view>
+        <view class="home-container">
+          <home-icons></home-icons>
+        </view>
+        <view class="home-container">
+          <home-info></home-info>
+        </view>
+        <view class="home-container">
+          <home-hot></home-hot>
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>

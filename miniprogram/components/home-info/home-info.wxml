@@ -1,0 +1,4 @@
+<!--components/home-info/home-info.wxml-->
+<view>
+    <image style="height: 60px; width: 100%;" src="{{imageUrl}}"/>
+</view>

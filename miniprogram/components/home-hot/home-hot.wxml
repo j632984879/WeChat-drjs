@@ -1,0 +1,21 @@
+<!--components/home-hot/home-hot.wxml-->
+<view>
+    <view>
+        <text>{{title}}</text>
+    </view>
+    <view class="grid-2 ">
+        <block wx:for="{{datas}}" wx:key="*this">
+            <view wx:key="{{item.id}}" class="grid-item grid-item-container">
+                <view class="image-fit-view" bindtap="iconClick" mark:to="{{item.navgation}}">
+                    <image class="fit-image" src="{{item.pic}}"></image>
+                </view>
+                <view>
+                    <text>{{item.title}}</text>
+                </view>
+                <view>
+                    <text>￥{{item.price}}</text>
+                </view>
+            </view>
+        </block>
+    </view>
+</view>
